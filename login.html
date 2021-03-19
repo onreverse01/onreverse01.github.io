@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <h1>로그인</h1>
+    <div id="wrapper">
+    <!-- <form action="./index.html"> -->
+    <form action="javascript:login11();">
+        <fieldset>
+            <div id="divlabel">
+                <label for="">아이디</label>   
+            </div>
+            <div>
+                <input type="text" name="userid" id="userid" placeholder="ID">
+            </div>
+            <div id="divlabel">
+                <label for="">비밀번호</label>  
+            </div>
+            <div>
+                <input type="password" name="userpwd" id="userpwd" placeholder="Password">
+            </div>
+            <br>
+            <div id="divcenter">
+                <input type="submit" class="btn" value="로그인">
+            </div>
+            <h4>or</h4>
+            <div id="divcenter">
+                <td><input type="button" class="btn" id="signup" value="회원가입" onclick="form_submit();"></td>
+            </div>
+            <br>
+            <br>
+            <div id="divcenter">
+                <td><input type="button" class="btn" id="back" value="뒤로" onclick="back_to();"></td>
+            </div>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

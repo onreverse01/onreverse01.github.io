@@ -1,0 +1,39 @@
+body{
+    color:white;
+    background-image: url("./../image/c2jin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.carditem-right{
+    float:right;
+}
+h2{
+    color:bisque;
+}
+#cubebox{
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(42, 194, 161), rgb(176, 233, 214));
+    border-radius: 15%;
+    padding: 25px;
+    margin: 15px;
+}
+img{
+    width: 250px;
+}
+header{
+    float: right;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+a:hover{
+    color: greenyellow;
+    transition: all ease 0.5s 0s;
+}

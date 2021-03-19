@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memberlist</title>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/memberlist.js"></script>
+    <link rel="stylesheet" href="./css/memberlist.css">
+    <script>
+    $(function(){
+        //페이지 최초 방문시, entries를 조회한다.
+        showEntries();
+    });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="sub">
+        </header>
+        <header>
+            <img src="./image/welcome.png" alt="">
+        </header>
+        <section>
+            <table id="tbl-entry"></table>
+        </section>
+        <footer>
+            <span>저의 개인홈페이지에 찾아주셔서 감사합니다.</span>
+        </footer>
+        <div id="rightheader">
+            <a href="./index.html">홈으로</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

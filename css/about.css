@@ -1,0 +1,40 @@
+div, header, section, aside, footer{
+    padding: 10px;
+}
+header{
+    text-align: center;
+}
+section{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    width: 475px;
+    vertical-align: top;
+}
+aside{
+    width: 475px;
+    display: inline-block;
+}
+img{
+    width:475px
+}
+mark{
+    background-color: green;
+    color: red
+}
+div#wrapper{
+    margin: 0 auto;
+    color:lightgray
+}
+footer{
+    text-align: right;
+}
+a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+    transition: all ease 0.5s 0s;
+}
